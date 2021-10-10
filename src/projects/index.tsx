@@ -1,5 +1,6 @@
 import React from 'react';
 import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
 
 const Projects: React.FC = () => {
   const arrayOfProjects = [
@@ -8,6 +9,12 @@ const Projects: React.FC = () => {
       title: 'MyEntrego',
       technologies: ['React JS', 'Ant Design', 'Sass', 'Redux'],
       url: 'https://my.entrego.com.ph/',
+    },
+    {
+      image: project2,
+      title: 'Entrego Courier, Express and Parcel',
+      technologies: ['React JS', 'Material UI', 'Sass', 'Redux', 'Typescript'],
+      url: 'https://parcel.entrego.com.ph/',
     },
   ];
 
