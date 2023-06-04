@@ -12,9 +12,9 @@ const Projects: React.FC = () => {
     },
     {
       image: project2,
-      title: 'Entrego Courier, Express and Parcel',
-      technologies: ['React JS', 'Material UI', 'Sass', 'Redux', 'Typescript'],
-      url: 'https://parcel.entrego.com.ph/',
+      title: 'Clean Air Asia',
+      technologies: ['React JS', 'Tailwind', 'Chart JS'],
+      url: 'https://gfei.cleanairasia.org/',
     },
   ];
 
@@ -26,9 +26,9 @@ const Projects: React.FC = () => {
           <h2 className="text-center font-weight-bold">____</h2>
         </div>
       </div>
-      <div className="row justify-content-center mt-5 mx-lg-5">
+      <div className="row justify-content-center my-5 mx-lg-5">
         {arrayOfProjects.map((v) => (
-          <div className="col-md-4 h-100" key={v.title + v.technologies.length}>
+          <div className="col-md-4 mt-3 h-100" key={v.title + v.technologies.length}>
             <div className="card">
               <img className="card-img-top" src={v.image} alt="Card cap1" />
               <div className="card-body">
